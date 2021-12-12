@@ -34,30 +34,16 @@
     <!-- End of Sidebar -->
     
     <!-- Content -->
-    <div class="col-6">
+    <div class="col-9">
     <div class="card ms-1 mt-4">
         <div class="card-header">
         Lhokseumawe, <?php echo date('l, d-m-Y'); ?> <br>
-            <img src="http://mesin.pnl.ac.id/wp-content/uploads/2018/05/Slide-02.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                    <h5 class="card-title">SISTEM INFORMASI PEMINJAMAN BARANG JURUSAN TEKNOLOGI INFORMASI
-                        DAN KOMPUTER - POLITEKNIK NEGERI LHOKSEUMAWE</h5>
-                    <p class="card-text">Sistem Informasi Peminjaman Barang <br> Program Studi Teknik Informatika 
-                    - Jurusan Teknologi Informasi dan Komputer</p>
-                    <a href="#" class="btn btn-primary">Lihat</a>
-                  </div>
-            
+            Data Dosen
+            <img src="https://www.duniadosen.com/wp-content/uploads/2016/02/Powerpoint-nya-Mudah-Dimengerti.jpg" class="card-img-top" alt="...">
         </div>
         </div>
     </div>
     <!-- End of Content -->
-
-    <!-- Calender -->
-    <div class="col">
-    <div class="card ms-1 mt-4">
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23B39DDB&ctz=Asia%2FJakarta&hl=id&title=SIPBAR&src=c2Fsc2FiaWxhd2luYTAzQGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=aWQuaW5kb25lc2lhbiNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cG5sLmFjLmlkX2NsYXNzcm9vbTgyMTI5MjU2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA0MzIyMzA3MjkyOTIwNjMwNjU0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTE1Mzk3NzY2NzkxOTk0MjAzNTk1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%2333B679&color=%230B8043&color=%23007b83&color=%230047a8&color=%230047a8" style="border:solid 1px #777" width="350" height="350" frameborder="0" scrolling="no"></iframe>
-        </div>
-    </div>
 
   </div>
 </div>

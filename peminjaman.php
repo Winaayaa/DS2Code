@@ -38,15 +38,7 @@
     <div class="card ms-1 mt-4">
         <div class="card-header">
         Lhokseumawe, <?php echo date('l, d-m-Y'); ?> <br>
-            <img src="http://mesin.pnl.ac.id/wp-content/uploads/2018/05/Slide-02.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                    <h5 class="card-title">SISTEM INFORMASI PEMINJAMAN BARANG JURUSAN TEKNOLOGI INFORMASI
-                        DAN KOMPUTER - POLITEKNIK NEGERI LHOKSEUMAWE</h5>
-                    <p class="card-text">Sistem Informasi Peminjaman Barang <br> Program Studi Teknik Informatika 
-                    - Jurusan Teknologi Informasi dan Komputer</p>
-                    <a href="#" class="btn btn-primary">Lihat</a>
-                  </div>
-            
+            Peminjaman Barang
         </div>
         </div>
     </div>

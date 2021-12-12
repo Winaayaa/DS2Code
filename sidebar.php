@@ -65,7 +65,16 @@
   <symbol id="geo-fill" viewBox="0 0 16 16">
     <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
   </symbol>
-</svg>
+  <symbol id="people-fill" viewBox="0 0 16 16">
+    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+    <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+    <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+  </symbol>
+  <symbol id="bag-check-fill" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+  </symbol>
+  </svg>
+
 
 <main>
   <h1 class="visually-hidden">Sidebars examples</h1>
@@ -75,32 +84,32 @@
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
       <li class="nav-item">
-        <a href="#" class="nav-link active" aria-current="page">
+        <a href="home.php" class="nav-link active" aria-current="page">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"/></svg>
           Beranda
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-dark">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
+        <a href="mahasiswa.php" class="nav-link text-dark">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-fill"/></svg>
           Data Mahasiswa
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-dark">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
+        <a href="dosen.php" class="nav-link text-dark">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
           Data Dosen
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-dark">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
+        <a href="barang.php" class="nav-link text-dark">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#bag-check-fill"/></svg>
           Data Barang
         </a>
       </li>
       <li>
-        <a href="#" class="nav-link text-dark">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+        <a href="peminjaman.php" class="nav-link text-dark">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
           Data Peminjaman
         </a>
       </li>
