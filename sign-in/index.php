@@ -63,12 +63,12 @@
     <p>Silakan masukkan username dan password Anda</p>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Username</label>
+      <input type="email" class="form-control" id="username" name="useranme" placeholder="name@example.com">
+      <label for="username">Username</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
+      <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+      <label for="password">Password</label>
     </div>
 
     <div class="checkbox mb-3">
