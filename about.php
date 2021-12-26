@@ -1,6 +1,3 @@
-<?php
-require "proses/session.php";
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -39,10 +36,10 @@ require "proses/session.php";
     <!-- Content -->
     <div class="col-9">
     <div class="card ms-1 mt-4">
+    Lhokseumawe, <?php echo date('l, d-m-Y'); ?> <br>
         <div class="card-header">
-        Lhokseumawe, <?php echo date('l, d-m-Y'); ?> <br>
-            Data Mahasiswa
-            <img src="https://smpstignasius.sch.id/wp-content/uploads/2019/07/buku.jpg" class="card-img-top" alt="">
+            Tentang INFOTIK <br><br>
+            InfoTik merupakan Sistem Informasi Peminjaman Barang pada Jurusan Teknologi Informasi dan Komputer - Politeknik Negeri Lhokseumawe.
         </div>
         </div>
     </div>

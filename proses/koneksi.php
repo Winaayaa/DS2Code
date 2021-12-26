@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect("localhost", "tiacom_ds2code", "ds2codeti1a", "tiacom_ds2code");
+    $conn = mysqli_connect("localhost", "root", "", "sipbar_2A");
 ?>
 
-<!-- user : tiacom_syadzwina pass : syadzwinati1a -->
+<!-- user : tiacom_ds2code pass : ds2codeti1a -->

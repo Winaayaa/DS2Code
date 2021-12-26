@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>SIPBAR Log In</title>
+    <title>INFOTIK Log In</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
     <link href='https://fonts.googleapis.com/css?PlayfairDisplaySC;' rel='stylesheet'>
@@ -63,7 +63,7 @@
     <p>Silakan masukkan username dan password Anda</p>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="username" name="useranme" placeholder="name@example.com">
+      <input type="email" class="form-control" id="username" name="username" placeholder="name@example.com">
       <label for="username">Username</label>
     </div>
     <div class="form-floating">

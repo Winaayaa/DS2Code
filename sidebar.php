@@ -1,9 +1,17 @@
+<?php
+require "proses/session.php";
+$sidebar = mysqli_query($conn, "SELECT * FROM tb_user WHERE username='$_SESSION[username]'");
+$row = mysqli_fetch_array($sidebar);
+?>
 <style>
     .d-flex {
         background-color : #bcb9c6;
     }
     .nav {
       height : 450px;
+    }
+    li:hover { 
+      background-color: #0073e6;
     }
 </style>
 
@@ -84,35 +92,58 @@
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
       <li class="nav-item">
-        <a href="home.php" class="nav-link active" aria-current="page">
+        <a href="home" class="nav-link link-dark 
+        <?php if ($_GET['x']=='home') { echo 'active'; } ?>" aria-current="page">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"/></svg>
           Beranda
         </a>
       </li>
+      <?php
+      if ($row['level'] == 'mahasiswa' || $row['level'] == 'admin') {
+      ?>
       <li>
-        <a href="mahasiswa.php" class="nav-link text-dark">
+        <a href="mahasiswa" class="nav-link link-dark
+        <?php if ($_GET['x']=='mahasiswa') { echo 'active'; } ?>">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-fill"/></svg>
           Data Mahasiswa
         </a>
       </li>
+      <?php
+      }
+      if ($row['level'] == 'dosen' || $row['level'] == 'admin') {
+      ?>
       <li>
-        <a href="dosen.php" class="nav-link text-dark">
+        <a href="dosen" class="nav-link link-dark
+        <?php if ($_GET['x']=='dosen') { echo 'active'; } ?>">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
           Data Dosen
         </a>
       </li>
+      <?php
+      }
+      if ($row['level'] == 'admin' || $row['level'] == 'dosen' || $row['level'] == 'mahasiswa') {
+      ?>
       <li>
-        <a href="barang.php" class="nav-link text-dark">
+        <a href="barang" class="nav-link link-dark
+        <?php if ($_GET['x']=='barang') { echo 'active'; } ?>">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#bag-check-fill"/></svg>
           Data Barang
         </a>
       </li>
+      <?php
+      }
+      if ($row['level'] == 'admin') {
+      ?>
       <li>
-        <a href="peminjaman.php" class="nav-link text-dark">
+        <a href="peminjaman" class="nav-link link-dark"
+        <?php if ($_GET['x']=='peminjaman') { echo 'active'; } ?>>
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
           Data Peminjaman
         </a>
       </li>
+      <?php
+      }
+      ?>
     </ul>
     <hr>
   </div>
