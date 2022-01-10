@@ -47,7 +47,6 @@ require "proses/session.php";
                         DAN KOMPUTER - POLITEKNIK NEGERI LHOKSEUMAWE</h5>
                     <p class="card-text">Sistem Informasi Peminjaman Barang <br> Program Studi Teknik Informatika 
                     - Jurusan Teknologi Informasi dan Komputer</p>
-                    <a href="#" class="btn btn-primary">Lihat</a>
                   </div>
             
         </div>

@@ -1,3 +1,7 @@
+<?php
+ include "proses/session.php";
+?>
+
 <!doctype html>
 <html lang="en">
   <head>

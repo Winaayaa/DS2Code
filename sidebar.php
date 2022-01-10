@@ -132,18 +132,14 @@ $row = mysqli_fetch_array($sidebar);
       </li>
       <?php
       }
-      if ($row['level'] == 'admin') {
       ?>
       <li>
-        <a href="peminjaman" class="nav-link link-dark"
-        <?php if ($_GET['x']=='peminjaman') { echo 'active'; } ?>>
+        <a href="peminjaman" class="nav-link link-dark
+        <?php if ($_GET['x']=='peminjaman') { echo 'active'; } ?>">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
           Data Peminjaman
         </a>
       </li>
-      <?php
-      }
-      ?>
     </ul>
     <hr>
   </div>

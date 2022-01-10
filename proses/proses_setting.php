@@ -56,7 +56,7 @@ $select = mysqli_query($conn, "SELECT * FROM tb_barang");
       <th scope="col">Gambar</th>
       <th scope="col">Nama Barang</th>
       <th scope="col">Keterangan</th>
-      <th scope="col"></th>
+      <th scope="col">Aksi</th>
     </tr>
   </thead>
   <tbody>
@@ -72,7 +72,6 @@ $select = mysqli_query($conn, "SELECT * FROM tb_barang");
       <td><?php echo $hasil['keterangan'] . "<br>"; ?></td>
       <td>
 
-      
 <!--Button Edit-->
       <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#ModalEdit<?php echo $no; ?>">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
