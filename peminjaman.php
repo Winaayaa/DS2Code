@@ -80,13 +80,16 @@ WHERE status=3 || status=4");
       DATA BARANG SISTEM INFORMASI PEMINJAMAN BARANG <br>
       JURUSAN TEKNOLOGI INFORMASI DAN KOMPUTER - POLITEKNIK NEGERI LHOKSEUMAWE <br><br>
 
-      
-      
+
+      <?php
+      if ($row['level'] == 'dosen' || $row['level'] == 'mahasiswa') {
+      ?>
+
       <!-- Button Tambah -->
       <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalAdd">
           Tambah Peminjaman
       </button>
-      
+
       <!-- Button List Peminjaman -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalList">
         List Peminjaman
@@ -96,7 +99,9 @@ WHERE status=3 || status=4");
       <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#ModalHistory">
         Riwayat Peminjaman
       </button>
-      
+      <?php
+      }
+      ?>
 
       <table class="table table-hover">
   <thead>
